@@ -16,7 +16,7 @@ class Exp(MyExp):
         # Define yourself dataset path
         self.data_dir = "datasets/Dentex"
         self.train_ann = "train_annotations.json"
-        self.val_ann = "val_annotations.json"
+        self.val_ann = "valid_annotations.json"
 
         self.num_classes = 32
 
